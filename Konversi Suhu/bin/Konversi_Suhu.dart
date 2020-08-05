@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:Konversi_Suhu/Konversi_Suhu.dart' as Konversi_Suhu;
 
 void main(List<String> arguments) {
-  stdout.write('Masukkan suhu dalam Fahrenheit (\u00B0) : ');
+  stdout.write('Masukkan suhu dalam \u00B0Fahrenheit : ');
   var fahrenheit = num.parse(stdin.readLineSync());
 
   var celsius = (fahrenheit - 32) * 5 / 9;
